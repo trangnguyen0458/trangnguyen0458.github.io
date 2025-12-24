@@ -1,0 +1,94 @@
+/* ===== Reset cơ bản ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Toàn trang ===== */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Container ===== */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Tiêu đề ===== */
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 12px;
+  font-size: 1.6rem;
+  color: #34495e;
+  border-left: 5px solid #3498db;
+  padding-left: 10px;
+}
+
+h3 {
+  margin-top: 15px;
+  color: #2c3e50;
+}
+
+/* ===== Đoạn văn ===== */
+p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* ===== Link ===== */
+a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Danh sách ===== */
+ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* ===== Section ===== */
+.section {
+  margin-bottom: 30px;
+}
+
+/* ===== Project card ===== */
+.project {
+  background: #f8f9fb;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border-left: 4px solid #3498db;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
+}
